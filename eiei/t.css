@@ -1,0 +1,50 @@
+#container {
+    margin: 0 auto;
+    width: 1100px;
+    height: 800px;
+   
+
+}
+
+header{/*ส่วนหัว*/
+    margin: 0 auto;/*ตำแหน่งกล่อง*/
+    width: 1000px;
+    height: 200px;
+    border: 1px solid black; /*เส้น*/
+    
+    background-image: url("/Users/wanchai/resume/img/bg1.jpg");/*รูปBG*/
+}
+nav{
+    float: left;/*โยนกล่องไปฝั่งซ้าย*/
+    margin: 60px 48px;
+    width: 300px;
+    height: 200px;
+    
+
+}
+aside{
+    float: right;/*โยนกล่องไปฝั่งขวา*/
+    margin: 60px 48px;
+    width: 300px;
+    height: 200;
+    
+}
+article{/*กล่องขวา*/
+    margin: 60px 400px;
+    width: 300px;
+    height: 447;
+    
+}
+.circle{ /*กำหนดรูปให้เป็นวงกลม*/
+    
+    border-radius: 50px;
+   
+   
+}
+footer{/*ฟลูเทอร์ส่วนล่าง*/
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    
+}
+
